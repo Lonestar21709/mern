@@ -1,0 +1,15 @@
+start with making backend dir
+1)npm init ->builds json file
+then
+2)npm install express cors mongoose dotenv -> install packages
+express -> framework for nodejs
+cors -> cross origin resource sharing -> ajax reqs to skip same origin policy and access resource from remote hosts, allows us to easily access things outside our server
+mongoose -> helps with interacting with mongoDB through nodejs
+dotenv -> loads environment variables from a dotenv file into a process dotenv file , instead of setting environment variables in dev machine they can be stored into a file, makes dev simpler 
+3) instlal -g nodemon
+nodemon - tool that helps install nodejs apps, by auto restarting the node app when file changes in dir are detected
+4)create server.js in backend/
+-include all the  middle ware/dependices -> mongoose, cors, express, dotenv
+-create env file to create environment variables to connect to mongodb
+
+5)create schema using mongoose - exercise and user
