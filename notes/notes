@@ -13,3 +13,9 @@ nodemon - tool that helps install nodejs apps, by auto restarting the node app w
 -create env file to create environment variables to connect to mongodb
 
 5)create schema using mongoose - exercise and user
+
+6)create routes to schemas in routes directory, and then set up in server.js
+7)create user and exercise routes, CRUD for exercises
+8)tested using insomnia
+
+done with backend!
